@@ -66,6 +66,11 @@ img {
     text-align: center;
 }
 
+.debug{
+    background-color: rgba(255, 0, 0, .5);
+    border: 2px solid black;
+}
+
 /************************************************
     SITE SECTIONS
  ************************************************/
@@ -127,3 +132,25 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+        
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col {
+        width: 80%;
+        padding: 25px;
+    }
+    .steps .col {
+        
+    }
+    
+   
+}
