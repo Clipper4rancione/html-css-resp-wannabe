@@ -139,6 +139,12 @@ img {
         
     }
 
+    h1{
+        font-size: 2.9rem;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
     .row{
         display: flex;
         flex-direction: column;
@@ -149,8 +155,16 @@ img {
         padding: 25px;
     }
     .steps .col {
-        
+        width: 80%;
+        padding: 25px;
     }
     
+    .why-us .col{
+        width: 80%;
+        padding: 20px;
+    }
+    .why-us .col-left{
+        padding: 30px;
+    }
    
 }
